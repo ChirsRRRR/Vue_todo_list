@@ -1,25 +1,25 @@
 # TodoList
 
 ## 1、What framework did you pick and why?
-```
+
 I use Vue.js to do assignment 2. Vue is a set of progressive JavaScript frameworks for building user interfaces. It has many advantages. The first is the small size: only 33k after compression; the second is higher operational efficiency: based on virtual DOM, a kind of JavaScript can be preformed through various calculations, the final DOM operations calculated and optimized technology, because this DOM operations belong to pre-processing operations, and no real operation DOM, so it is called virtual DOM; then two-way data binding: so that Vue uses MVVM (Model-View-ViewModel), which is a new approach to the development of the Vue.js framework. ViewModel separates the view UI from the business logic , it can take out the data of the Model , while helping to handle the business logic designed into the View due to the need to display content . In addition, because Vue uses the Virtual DOM, it has cross-platform advantages. Because the Virtual DOM is based on JavaScript objects and does not rely on the real platform environment, it gives it cross-platform capabilities, such as browser platforms, Weex, Node, etc.; and improved rendering performance. The advantage of the Virtual DOM is not in single operation, but rather the ability to make reasonable and efficient updates to the view under large and frequent data updates.
-```
+
 
 ## 2、What about that framework appealed to you, for this project?
-```
+
 Vue is simple and easy to learn compared to other frameworks. Vue.js has a relatively small learning curve compared to other frameworks such as React or Angular, making it an ideal choice for developers who are new to frontend development. Secondly, it is very flexible. Vue.js allows developers to use it as a library or a full-fledged framework. Developers can easily integrate Vue.js into an existing project, or build a new project from scratch. Vue.js has a large and active community of developers who contribute to its development and offer support to others. So Vue's community environment is also very good, in the official website of the forum, you can find the corresponding tutorials and problems when you can find a timely solution. Besides, Vue.js uses a reactive component model, which means that the components automatically update when the underlying data changes. This makes it easy to build complex user interfaces that respond to user actions without having to write a lot of code. Finally, It is testable for Vue.js, with built-in support for unit testing and integration testing. This makes it easy to ensure that your code works as expected and catch any bugs before they become a problem.
-```
+
 
 ## 3、What alternative frameworks did you consider?
-```
+
 The first alternative framework I considered was React. React is a popular JavaScript library that is widely used for building user interfaces. Its advantages include a large and active community, high performance, and a component-based architecture that makes it easy to build reusable UI components. And Angular is the second alternative framework I considered. Angular is a full-fledged front-end framework that is widely used for building large-scale, enterprise-level applications. Its advantages include a robust set of features, including a built-in router, dependency injection, and reactive programming capabilities. Besides, I also considered Bootstrap, because it is a popular CSS framework that provides a set of pre-built UI components and styles, making it easy to build responsive web applications. Its advantages include a large and active community, fast development time, and built-in support for accessibility. Finally, through the comparison of these several frameworks, the choice of Vue . Because Vue.js has a low learning curve due to its simpler and more intuitive syntax.。
-```
+
 
 ## 4、What resources did you read/watch/listen to?
-```
+
 I used Vue for this assignment, and to learn about Vue, I first visited its official website [Vue](https://vuejs.org/), read its tutorials to get started, and got to know its community. Other than that, after watching some tutorials on Vue, such as [Vue tutorial1](https://www.imooc.com/video/23021) and [Vue tutorial2](https://www.bilibili.com/video/BV1Zy4y1K7SH/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=0d2e7170235ef00cf5245bf2d5502418). Besides, In addition, I also read some text tutorials on Vue, like [Vue text tutorial](https://www.runoob.com/vue2/vue-tutorial.html). Finally, when I'm confused about some details of Vue, I'll look for answers on Google or use ChatGPT to learn more deeply about some unfamiliar points, such as the use of Router in Vue.js, the use of Components in Vue.js and the use of arrow functions, etc.
-```
+
 ## 5、Describe the site you built for this assignment. What does it do? What components or features of the framework did you explore for this project
-```
+
 For this assignment, I made a TODO list, which can add pending events, mark done events, and delete done events in bulk. Also, for each event added/deleted, the number of events to be done and the total number of events will be dynamically displayed at the bottom. In the assignment, I used Router in Vue.js. In this subassignment, when running the whole project, we will first enter a StartView home page, there is a button in this home page, when we click this button, we will do route forwarding and the page will jump to the home page of TODO list (i.e. home page). In the assignment, I used Router in Vue.js. In this subassignment, when the whole project is run, it will first enter a StartView home page, which has a button, and when we click this button, it will be routed and the page will jump to the TODO list home page. In addition, the Vue.js compute property is used to cache each input of the TODO list. The advantage of this is that when we need to delete, we can directly get the corresponding information from the cache, instead of looking for the information from the database each time. This makes the whole page's responsiveness and rendering efficiency a big improvement.
-```
+
